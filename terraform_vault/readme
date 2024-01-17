@@ -1,0 +1,8 @@
+We should the vault manually on linux machine
+Vaut packages are not available by default we need to add the package using gpg commands.
+They are available in two forms that is dev form and prod form.
+for doing projects will use the dev form of vault
+
+To retrive the information from vault or other reseource will use the keyword "data" in terraform.
+
+To create the resource will use the keyword "reseource" in terraform
