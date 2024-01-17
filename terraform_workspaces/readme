@@ -1,0 +1,22 @@
+* Creating a terraform workspace helps to avoid creating multiple terraform projects for differnt evironments like dev,QA,stage.
+
+* Same project can be used in different enovironment by creating terraform workspaces
+
+* Terraform workspaces helps to create the separte statefile for each environment.
+
+* To create a workspace for dev environment use the below command
+     terraform workspace new dev
+
+* To create a workspace for stage environment use the below command
+     terraform workspace new stage
+
+* To create a workspace for prod environment use the below command
+     terraform workspace new prod
+
+* Terraform command to switch between the environments(switch to dev env)
+      terraform workspace select dev
+
+* Terraform command to show in which environment we are working
+      terraform workspace show
+      
+
