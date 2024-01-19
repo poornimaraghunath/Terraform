@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-east1"
+  region = "us-east-1"
 }
 
 provider "vault" {
@@ -11,7 +11,7 @@ provider "vault" {
 
     parameters = {
       role_id = "e250e843-cfe2-3dac-ccaf-fa8e3087be7c"
-      secret_id = "07f55b33-b2b5-f2a6-3dc0-89fd4b828fbe"
+      secret_id = "cb559227-833d-0f45-4b8d-877eb11e4753"
     }
   }
 }
@@ -23,7 +23,7 @@ data "vault_kv_secret_v2" "example" {
 }
 
 resource "aws_instance" "demo" {
-    ami = ""
+    ami = "ami-0c7217cdde317cfec"
     instance_type = "t2.micro"
 
     tags = {
