@@ -6,3 +6,15 @@ for doing projects will use the dev form of vault
 To retrive the information from vault or other reseource will use the keyword "data" in terraform.
 
 To create the resource will use the keyword "reseource" in terraform
+
+Never forget to dp export_vault
+
+Secret engines : they are used for storing differenet types of secretes (eg kuberntes,aws)
+
+Once secretes are need if you need to access in terraform or ansible you need to create the roles and attach policies to access them
+
+In vault where access is referred to role there many different types of access methods mostly wided used is approle method
+
+Data block is used to retrive the secrets from  provider hashicorp vault
+
+resource block is used to create the resource on providers  
