@@ -13,4 +13,4 @@ once resource file is generated copy the data into main.tf file and then delete 
 But still terraform doesn't understand that the resource is already created on aws.
 
 For that you need to create the terraform.tfstate file by using the below command
-  terraform import aws_instance.example i-002460bb0a1051b43
+  
