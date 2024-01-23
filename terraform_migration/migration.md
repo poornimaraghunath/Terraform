@@ -5,6 +5,7 @@ Migrating the aws resources that were created manually on aws console to terrafo
 * Import concept was introduced in terraform version 1.5
 
 To create a terraform file for manually created aws resource please enter the below command
+
 terraform init
 terraform plan -generate-config-out=generated_resources.tf
 
